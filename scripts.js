@@ -23,7 +23,7 @@ const printYouTubeModal = youTubeVideoCode => {
         </div>
     </div>
     `;
-    console.log(modal.innerHTML);
+    // console.log(modal.innerHTML);
     document.body.appendChild(modal);
     closeModal(modal);
 };
